@@ -1,0 +1,32 @@
+info:
+  app:
+    name: "Serviço de votação"
+    version: "1.0"
+    description: "Serviço de gerenciamento de votações da cooperativa"
+
+server:
+  port: 8081
+
+logging.level.org.springframework:
+  security: INFO
+
+logging:
+  file: ".\\logs\\application-logs.log"
+  level:
+    ROOT: INFO
+
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost/cooperativa"
+    username: "postgres"
+    password: "localpass"
+    driver-class-name: "org.postgresql.Driver"
+  liquibase:
+    change-log: "classpath:/liquibase/db.changelog.xml"
+
+url:
+  api-cpf: "https://user-info.herokuapp.com/users/"
+
+agendamento:
+  initial-delay: 20000 #20 segundos
+  time-rate: 60000 #60 segundos

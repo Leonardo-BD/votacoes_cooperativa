@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+						http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+  
+    <changeSet id="1.0.1.1" author="leonardo.brum.dorneles">
+        <sqlFile encoding="utf8" path="../changesets/1.0.1/01-create_table_pauta.sql" relativeToChangelogFile="true" />
+        <rollback>
+          <sqlFile encoding="utf8" path="../changesets/1.0.1/01-create_table_pauta_ROLLBACK.sql" relativeToChangelogFile="true"/>
+        </rollback>
+    </changeSet>
+    <changeSet id="1.0.1.2" author="leonardo.brum.dorneles">
+        <sqlFile encoding="utf8" path="../changesets/1.0.1/02-create_table_sessao.sql" relativeToChangelogFile="true" />
+        <rollback>
+            <sqlFile encoding="utf8" path="../changesets/1.0.1/02-create_table_sessao_ROLLBACK.sql" relativeToChangelogFile="true"/>
+        </rollback>
+    </changeSet>
+    <changeSet id="1.0.1.3" author="leonardo.brum.dorneles">
+        <sqlFile encoding="utf8" path="../changesets/1.0.1/03-create_table_associado.sql" relativeToChangelogFile="true" />
+        <rollback>
+            <sqlFile encoding="utf8" path="../changesets/1.0.1/03-create_table_associado_ROLLBACK.sql" relativeToChangelogFile="true"/>
+        </rollback>
+    </changeSet>
+    <changeSet id="1.0.1.4" author="leonardo.brum.dorneles">
+        <sqlFile encoding="utf8" path="../changesets/1.0.1/04-create_table_voto.sql" relativeToChangelogFile="true" />
+        <rollback>
+            <sqlFile encoding="utf8" path="../changesets/1.0.1/04-create_table_voto_ROLLBACK.sql" relativeToChangelogFile="true"/>
+        </rollback>
+    </changeSet>
+    <changeSet id="1.0.1.5" author="leonardo.brum.dorneles">
+        <sqlFile encoding="utf8" path="../changesets/1.0.1/05-create_table_resultado_votacao.sql" relativeToChangelogFile="true" />
+        <rollback>
+            <sqlFile encoding="utf8" path="../changesets/1.0.1/05-create_table_resultado_votacao_ROLLBACK.sql" relativeToChangelogFile="true"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>
+
