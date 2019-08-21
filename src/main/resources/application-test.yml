@@ -7,14 +7,9 @@ info:
 server:
   port: 8081
 
-logging:
-  file: ".\\logs\\application-logs.log"
-  level:
-    ROOT: INFO
-
 spring:
   datasource:
-    url: "jdbc:postgresql://localhost/cooperativa"
+    url: "jdbc:postgresql://localhost/cooperativa-test"
     username: "postgres"
     password: "localpass"
     driver-class-name: "org.postgresql.Driver"
@@ -31,4 +26,4 @@ agendamento:
 kafka:
   bootstrap-servers: "localhost:9092"
   topic:
-    resultado-votacao: "resultado-votacao"
+    resultado-votacao: "resultado-votacao-test"

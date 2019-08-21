@@ -74,11 +74,10 @@ public class VotoDao {
                     return votoList;
                 }
             }
+            return votoList;
         } catch (Exception e) {
             log.error(MSG_EXCEPTION, e);
             throw VotoExceptionEnum.ERRO_BUSCAR_VOTOS.getException();
         }
-
-        throw VotoExceptionEnum.VOTOS_NAO_ENCONTRADOS.getException();
     }
 }

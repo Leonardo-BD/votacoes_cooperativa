@@ -7,9 +7,6 @@ info:
 server:
   port: 8081
 
-logging.level.org.springframework:
-  security: INFO
-
 logging:
   file: ".\\logs\\application-logs.log"
   level:
@@ -30,3 +27,8 @@ url:
 agendamento:
   initial-delay: 20000 #20 segundos
   time-rate: 60000 #60 segundos
+
+kafka:
+  bootstrap-servers: "localhost:9092"
+  topic:
+    resultado-votacao: "resultado-votacao"

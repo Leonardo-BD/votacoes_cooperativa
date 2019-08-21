@@ -9,9 +9,6 @@ import br.com.cooperativa.votacao.service.rules.SessaoRules;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.time.OffsetDateTime;
-import java.time.ZoneId;
-
 @Service
 public class SessaoService {
 
@@ -25,8 +22,7 @@ public class SessaoService {
         if (SessaoRules.versaoApiValida(versaoApi)) {
             if (SessaoRules.modeloSessaoValido(sessao)) {
                 if (pautaDao.buscarPautaPorId(sessao.getIdPauta()) != null) {
-                    sessao.setDataEncerramento(SessaoRules.tempoExpiracaoDefinido(tempoExpiracao) ? OffsetDateTime.now(ZoneId.of("America/Sao_Paulo")).plusMinutes(tempoExpiracao) : null);
-                    return sessaoDao.registrarSessaoDeVotacao(sessao);
+                    return sessaoDao.registrarSessaoDeVotacao(sessao, tempoExpiracao);
                 } else {
                     throw SessaoExceptionEnum.PAUTA_INEXISTENTE.getException();
                 }

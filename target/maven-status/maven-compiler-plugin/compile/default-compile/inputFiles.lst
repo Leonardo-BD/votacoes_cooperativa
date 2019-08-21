@@ -1,30 +1,40 @@
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\exception\enumerator\GenericExceptionEnum.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\model\Associado.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\database\dao\VotoDao.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\exception\enumerator\VotoExceptionEnum.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\service\PautaService.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\service\VotacaoService.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\model\Sessao.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\exception\enumerator\PautaExceptionEnum.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\model\Voto.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\api\VotacaoRest.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\config\ConfigConstants.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\config\WebSecurityConfig.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\config\swagger\SwaggerConfigProperties.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\model\Pauta.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\exception\enumerator\ResultadoVotacaoExceptionEnum.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\database\dao\AssociadoDao.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\exception\enumerator\AssociadoExceptionEnum.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\config\JWTAuthorizationFilter.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\database\dao\SessaoDao.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\service\rules\PautaServiceRules.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\database\dao\PautaDao.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\database\ConnectionFactory.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\VotacaoApplication.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\database\dao\ResultadoVotacaoDao.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\exception\ExceptionTemplate.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\model\ResultadoVotacao.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\service\utils\PautaServiceUtils.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\exception\enumerator\SessaoExceptionEnum.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\api\PautaRest.java
-C:\1DEV projects\1IBM\Sicredi Digital\votacao\src\main\java\br\com\cooperativa\votacao\config\swagger\SwaggerConfig.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\service\SessaoService.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\service\rules\SessaoRules.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\service\VotoService.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\config\WebSecurityConfig.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\database\dao\VotoDao.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\api\VotoRest.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\config\JWTAuthorizationFilter.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\database\dao\AssociadoDao.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\config\swagger\SwaggerConfigProperties.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\model\Associado.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\exception\enumerator\KafkaExceptionEnum.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\api\PautaRest.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\exception\enumerator\ResultadoVotacaoExceptionEnum.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\database\ConnectionFactory.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\service\rules\VotoRules.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\database\dao\ResultadoVotacaoDao.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\exception\enumerator\GenericExceptionEnum.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\service\kafka\KafkaSender.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\exception\enumerator\AssociadoExceptionEnum.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\service\threads\ResultadoVotacaoThread.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\model\Pauta.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\config\ConfigConstants.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\exception\enumerator\VotoExceptionEnum.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\service\PautaService.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\config\kafka\KafkaSenderConfig.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\model\ResultadoVotacao.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\service\rules\PautaRules.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\service\rules\AssociadoRules.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\VotacaoApplication.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\database\dao\SessaoDao.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\model\Voto.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\exception\ExceptionTemplate.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\api\SessaoRest.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\config\swagger\SwaggerConfig.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\utils\GsonUtils.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\exception\enumerator\SessaoExceptionEnum.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\database\dao\PautaDao.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\model\integracao\validadorcpf\AutorizacaoCpf.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\exception\enumerator\PautaExceptionEnum.java
+C:\1DEV projects\1Git\votacoes_cooperativa\src\main\java\br\com\cooperativa\votacao\model\Sessao.java

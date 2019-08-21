@@ -73,4 +73,15 @@ public class Sessao {
     public void setDataEncerramento(OffsetDateTime dataEncerramento) {
         this.dataEncerramento = dataEncerramento;
     }
+
+    @Override
+    public String toString() {
+        return "Sessao{" +
+                "id=" + id +
+                ", idPauta=" + idPauta +
+                ", contabilizada=" + contabilizada +
+                ", dataAbertura=" + dataAbertura +
+                ", dataEncerramento=" + dataEncerramento +
+                '}';
+    }
 }
