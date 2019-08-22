@@ -1,5 +1,6 @@
 /build/
 .mvn
+.target
 
 # Compiled class file
 *.class
