@@ -51,7 +51,7 @@ public class FluxoPadraoIT {
         Assert.assertNotNull(sessao.getDataAbertura());
         Assert.assertNotNull(sessao.getDataEncerramento());
 
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 12; i++) {
             Voto voto = new Voto();
             voto.setIdSessao(sessao.getId());
             voto.setIdAssociado(i);

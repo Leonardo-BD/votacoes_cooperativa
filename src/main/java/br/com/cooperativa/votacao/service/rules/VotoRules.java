@@ -1,7 +1,7 @@
 package br.com.cooperativa.votacao.service.rules;
 
 import br.com.cooperativa.votacao.model.Voto;
-import br.com.cooperativa.votacao.model.integracao.validadorcpf.AutorizacaoCpf;
+import br.com.cooperativa.votacao.integracao.model.retorno.ValidacaoCpfRetorno;
 
 public class VotoRules {
 
@@ -18,9 +18,9 @@ public class VotoRules {
                 voto.getValor() != null;
     }
 
-    public static boolean cpfAutorizado(AutorizacaoCpf autorizacaoCpf) {
-        return  autorizacaoCpf != null &&
-                autorizacaoCpf.getStatus() != null &&
-                autorizacaoCpf.getStatus().equals("ABLE_TO_VOTE");
+    public static boolean cpfAutorizado(ValidacaoCpfRetorno validacaoCpfRetorno) {
+        return  validacaoCpfRetorno != null &&
+                validacaoCpfRetorno.getStatus() != null &&
+                validacaoCpfRetorno.getStatus().equals("ABLE_TO_VOTE");
     }
 }

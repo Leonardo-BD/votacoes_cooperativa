@@ -1,13 +1,13 @@
-package br.com.cooperativa.votacao.model.integracao.validadorcpf;
+package br.com.cooperativa.votacao.integracao.model.retorno;
 
 import com.google.gson.annotations.SerializedName;
 
-public class AutorizacaoCpf {
+public class ValidacaoCpfRetorno {
 
     @SerializedName("status")
     private String status;
 
-    public AutorizacaoCpf(String status) {
+    public ValidacaoCpfRetorno(String status) {
         this.status = status;
     }
 
