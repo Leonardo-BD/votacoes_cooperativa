@@ -1,17 +1,15 @@
-# votacoes_cooperativa
+# Serviço gerenciador de votações
 Serviço back-end para controlar as votações de uma cooperativa.
 
 Autor: Leonardo Brum Dorneles
 
-Projeto escrito na linguagem Java 8 com o auxílio de pacotes Spring e de outras dependências (ver pom.xml). Os plugins Codota e SonarLint foram adicionados à IDE e auxiliaram no desenvolvimento.
-
-Um teste de integração foi implementado. Em se tratando de uma demonstração técnica, apenas um fluxo de uso completo foi abrangido.
+Sobre questões técnicas gerais:
+- Projeto escrito na linguagem Java 8 com o auxílio de pacotes Spring e de outras dependências (ver pom.xml). Os plugins Codota e SonarLint foram adicionados à IDE e auxiliaram no desenvolvimento.
+- Um teste de integração foi implementado. Em se tratando de uma demonstração técnica, apenas um fluxo de uso completo foi abrangido.
+- O gerenciador de dependências é o Maven. Gradle poderia ter sido utilizado sem maiores problemas, entretanto.
+- O banco de dados utilizado foi o PostgreSQL por questões de maior afinidade.
 
 Uma vez inicializada a aplicação, as chamadas de API podem ser testadas individualmente por meio do Swagger, acessível em http://localhost:8081/swagger-ui.html#/
-
-O gerenciador de dependências é o Maven. Gradle poderia ter sido utilizado sem maiores problemas, entretanto.
-
-O banco de dados utilizado foi o PostgreSQL por questões de maior afinidade.
 
 A validação externa do CPF do associado é feita via API externa.
 
